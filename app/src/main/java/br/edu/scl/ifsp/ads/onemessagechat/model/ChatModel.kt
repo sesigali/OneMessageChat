@@ -1,4 +1,6 @@
 package br.edu.scl.ifsp.ads.onemessagechat.model
 
-class ChatModel {
-}
+data class ChatModel(
+    val chatId: String,
+    val message: String
+)
